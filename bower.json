@@ -1,0 +1,14 @@
+{
+    "name": "electron-boilerplate",
+    "dependencies": {
+        "open-sans-fontface": "~1.4.2"
+    },
+    "overrides": {
+        "open-sans-fontface": {
+            "main": [
+                "open-sans.scss",
+                "fonts/**/*"
+            ]
+        }
+    }
+}
