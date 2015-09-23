@@ -11,9 +11,6 @@ gulp.task("bower:sass", () => {
         .pipe(inject(
             gulp.src(mainBowerFiles({filter: "**/*.scss"}), {base: "bower_components", read: false}),
             {
-                starttag: "/* inject:scss */",
-                endtag: "/* endinject */",
-                transform: path => `@import "${path}";`,
                 relative: true
             }
         ))
