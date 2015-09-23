@@ -16,12 +16,12 @@
             2,
             "always"
         ],
+        "jsx-quotes": [
+            2,
+            "prefer-double"
+        ],
         "react/jsx-indent-props": 2,
         "react/jsx-no-duplicate-props": 2,
-        "react/jsx-quotes": [
-            2,
-            "double"
-        ],
         "react/no-multi-comp": 2,
         "react/prop-types": 2
     },
