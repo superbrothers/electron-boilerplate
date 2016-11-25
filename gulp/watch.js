@@ -6,5 +6,6 @@ gulp.task("watch", [
     "copy:watch",
     "eslint:watch",
     "scripts:watch",
-    "styles:watch"
+    "styles:watch",
+    "images:watch"
 ]);
